@@ -1,0 +1,216 @@
+body.single-product .wczpc_maindiv {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 15px;
+    margin: 15px 0px;
+}
+.wczpc_maindiv h3 {
+    font-size: 20px !important;
+    text-transform: capitalize;
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0px 10px 0px !important;
+    line-height: 30px !important;
+}
+p.response_pin {
+    border: 3px dotted #ccc;
+    padding: 19px;
+    background: #ffff;
+}
+input.wczpinzipsubmit {
+    margin: 5px;
+}
+input.wczpopuppinzip {
+    margin: 5px;
+}
+h4.wczp_popup_header {
+    margin: 10px 0px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+p.err {
+    border: 1px solid red;
+    position: relative;
+    background: red;
+    border-radius: 4px;
+    color: #fff;
+  
+}
+p.err:after {
+    border-color: transparent transparent red;
+    border-style: solid;
+    border-width: 8px;
+    content: "";
+    left: 22px;
+    position: absolute;
+    top: -17px;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 3px solid #ccc;
+  width: 35%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+img.popupimage {
+    /* width: 262px; */
+    height: 194px;
+    border-radius: 11px;
+    border: 3px dotted #ccc;
+}
+input.wczpopuppinzip {
+    padding: 3px!important;
+}
+input.wczpinzipsubmit {
+    padding: 12px!important;
+}
+.modalinner {
+    width: 100%;
+    display: inline-block;
+}
+.popup_oc_left {
+    width: 41%;
+    display: inline-block;
+    float: left;
+}
+.modalinner {
+    padding: 11px;
+    padding-bottom: 37px;
+}
+.popup_oc_right {
+    width: 57%;
+    display: inline-block;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: #000;
+  float: right;
+  font-size: 31px;
+    font-weight: bold;
+    position: relative;
+    top: -9px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/*.modal-body {padding: 2px 16px;}*/
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+.wczpc_maindiv input.wczpcheck {
+    width: 100%!important;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.wczpc_spinner {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.wczpc_spinner img {
+	height: 50px;
+}
+.wczpc_maindiv input.wczpcheckbtn {
+    width: auto!important;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    font-size: 18px;
+    display: block;
+}
+.wczpc_maindiv input.wczpbtn {
+    width: auto!important;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    font-size: 18px;
+    display: block;
+}
+
+p.response_pin {
+	margin: 5px 0px;
+}
+:focus {
+	outline: none;
+}
+body.single-product .wczpc_maindiv.wczpc_loader {
+	background-color: rgba(0,0,0,0.3);
+	pointer-events: none;
+}
+@media only screen and (max-width: 768px){
+    .popup_oc_left{
+      width:100%;
+    }
+    .popup_oc_right{
+      width:100%;
+    }
+    input.wczpopuppinzip {
+      width: 66%;
+  }
+  .modal-content{
+    width:85%;
+  }
+}

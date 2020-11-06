@@ -1,0 +1,146 @@
+img.wczp_rating_div {
+    width: 11%;
+    vertical-align: middle;
+}
+.wczp_container {
+     width: 100%;
+    display: inline-block;
+    background-color: #e3e3e3;
+    border: 1px solid #ccc; 
+    margin-top :26px;
+}
+.wczp_container h2 {
+	margin: 0px;
+    background: #0b4a78;
+    color: #fff;
+    padding: 12px;
+}
+table.wczp_table {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 23px;
+}
+table.wczp_table tr td:first-child {
+  font-weight: bold;
+    font-size: 14px;
+    padding-right: 22px;
+}
+label.oczp_pro_link {
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*.wczp_container input[type="submit"] {
+  background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 14%;
+    padding: 11px;
+    margin: 21px;
+}*/
+.oc_wczp input[type="submit"] {
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 14%;
+    padding: 11px;
+    margin: 21px;
+}
+table.wczp_table tr {
+    line-height: 56px;
+}
+
+.tablenav .actions select{
+    float: left;
+    display: inline-block;
+    margin-right: 6px;
+    width: 60%;
+    max-width: 12.5rem;
+}
+table.wczp_list_table {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+}
+
+table.wczp_list_table thead {
+    display: inline-block;
+    width: 100%;
+    border: none;
+}
+
+table.wczp_list_table tbody {
+    width: 100%;
+    display: inline-block;
+    border: none;
+}
+
+table.wczp_list_table tr {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    line-height: 25px;
+}
+
+table.wczp_list_table tr th , table.wczp_list_table tr td{
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    border: none;
+}
+form.wczp_import {
+    padding: 10px 0px;
+}
+form.wczp_import input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+form.wczp_import input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.wczp_table input[type="submit"] {
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    width:74%;
+}
+.wczp_importbox {
+    border: 1px dashed;
+    padding: 10px;
+    width: 40%;
+}
+
+a.wczp_demo_file {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
